@@ -32,12 +32,6 @@ public class Test {
         kingsOfRome.add("Tarquinio Il Superbo");
 
         String[] kingsOfRomeArray = kingsOfRome.toArray(new String[kingsOfRome.size()]);
-        kingsOfRomeArray[0] = kingsOfRome.get(0);
-        kingsOfRomeArray[1] = kingsOfRome.get(1);
-        kingsOfRomeArray[2] = kingsOfRome.get(2);
-        kingsOfRomeArray[3] = kingsOfRome.get(3);
-        kingsOfRomeArray[4] = kingsOfRome.get(4);
-        kingsOfRomeArray[5] = kingsOfRome.get(5);
         kingsOfRomeArray[6] = "Lucius Tarquinius Supercar";
 
         System.out.println(Arrays.toString(kingsOfRomeArray));
